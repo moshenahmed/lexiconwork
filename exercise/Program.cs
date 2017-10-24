@@ -8,8 +8,16 @@ namespace exercise
 {
     class Program
     {
-        static void Main(string[] args)
+          static void Main(string[] args)
         {
+           var p1 = new Person();
+            PersonHandler Personone = new PersonHandler();
+        
+
+
+            Personone.CreatePerson(1, "jhdjdjd", "kdhdkjhd", 22.55, 66.66);
+            Console.WriteLine(p1.Age);
         }
+
     }
 }
