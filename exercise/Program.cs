@@ -10,7 +10,6 @@ namespace exercise
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("moshen is good");
         }
     }
 }
