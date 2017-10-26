@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace exercise
 {
-    class Person
+    class Person 
     {
         private int age;
         private double weight;
@@ -38,6 +38,6 @@ namespace exercise
         {
             get { return fName; }
             set { fName = value; }
-        }
+        }                     
     }
 }
