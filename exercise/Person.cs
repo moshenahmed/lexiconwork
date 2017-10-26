@@ -8,56 +8,36 @@ namespace exercise
 {
     class Person
     {
-       
         private int age;
+        private double weight;
+        private double height;
+        private string lName;
+        private string fName;
 
         public int Age
         {
             get { return age; }
             set { age = value; }
         }
-
-        
-        private string fName;
-
-        public string FName
-        {
-            get { return fName; }
-            set { fName = value; }
-        }
-
-        
-        private string lName;
-
-        public string LName
-        {
-            get { return lName; }
-            set { lName = value; }
-        }
-
-        
-        private double height;
-
         public double Height
         {
             get { return height; }
             set { height = value; }
         }
-
-
-        private double weight;
-
         public double Weight
         {
             get { return weight; }
             set { weight = value; }
         }
-
+        public string LName
+        {
+            get { return lName; }
+            set { lName = value; }
+        }
+        public string FName
+        {
+            get { return fName; }
+            set { fName = value; }
+        }
     }
 }
-
-
-
-
-
-

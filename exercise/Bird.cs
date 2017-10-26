@@ -6,7 +6,19 @@ using System.Threading.Tasks;
 
 namespace exercise
 {
-    class Bird
+    public class Bird : Animal
     {
+        private int wingSpan;
+
+        public int WingSpan
+        {
+            get { return wingSpan; }
+            set { wingSpan = value; }
+        }
+        public Bird() { }
+        public Bird(int age, int weight, string name, int wingSpan) : base(age, weight, name)
+        {
+            WingSpan = wingSpan;
+        }
     }
 }

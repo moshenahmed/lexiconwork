@@ -8,22 +8,19 @@ namespace exercise
 {
     class PersonHandler
     {
-          public Person CreatePerson(int age, string fname,
-          string lname, double height, double weight)
+        public Person CreatePerson(int age, string fname, string lname, double height, double weight)
         {
-            Person John = new Person();
-            John.Age = age;
-            John.FName = fname;
-            John.LName = lname;
-            John.Height = height;
-            John.Weight = weight;
-            return John;
+            Person people = new Person();
+            people.Age = age;
+            people.FName = fname;
+            people.LName = lname;
+            people.Height = height;
+            people.Weight = weight;
 
-            
+
+
+
+            return people;
         }
-
-
     }
-} 
-    
-
+}

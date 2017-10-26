@@ -8,20 +8,13 @@ namespace exercise
 {
     class Program
     {
-        static void Main(string[] args)
+          static void Main(string[] args)
         {
-            //var person = new Person();
-            //PersonHandler elf = new PersonHandler();
-            //PersonHandler orc = new PersonHandler();
-           
-            //Person p1 = new Person();
-            //p1 = elf.CreatePerson(1, "John", "Eriksson", 500, 100);
+            var p1 = new Person();
+            PersonHandler Personone = new PersonHandler();
 
-            //Person p2 = new Person();
-            //p2 = orc.CreatePerson(3, "Mosh", "Yea", 200, 700);
-
-            //Console.WriteLine(p1.Age + p2.FName + p2.Age);
-
+            p1 = Personone.CreatePerson(1, "jhdjdjd", "kdhdkjhd", 22.55, 66.66);
+            Console.WriteLine(p1.Age);
 
         }
     }
