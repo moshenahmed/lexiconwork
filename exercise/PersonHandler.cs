@@ -8,10 +8,7 @@ namespace exercise
 {
     class PersonHandler
     {
-
-
-
-        public Person CreatePerson(int age, string fname,
+          public Person CreatePerson(int age, string fname,
           string lname, double height, double weight)
         {
             Person John = new Person();
@@ -21,6 +18,8 @@ namespace exercise
             John.Height = height;
             John.Weight = weight;
             return John;
+
+            
         }
 
 
