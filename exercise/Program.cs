@@ -18,6 +18,5 @@ namespace exercise
             Personone.CreatePerson(1, "jhdjdjd", "kdhdkjhd", 22.55, 66.66);
             Console.WriteLine(p1.Age);
         }
-
     }
 }
