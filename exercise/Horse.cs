@@ -8,12 +8,17 @@ namespace exercise
 {
     public class Horse : Animal
     {
-        private int dick;
+        private string color;
 
-        public int Dick
+        public string Color
         {
-            get { return dick; }
-            set { dick = value; }
+            get { return color; }
+            set { color = value; }
+        }
+        public Horse() { }
+        public Horse(int age, double weight, string name, string color): base(age, weight, name)
+        {
+            Color = color;
         }
 
     }

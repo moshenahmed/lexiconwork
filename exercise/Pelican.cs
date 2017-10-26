@@ -8,17 +8,22 @@ namespace exercise
 {
     class Pelican : Bird
 
-    { 
-            private String color;
+    {
+        private String feathercolor;
 
-        public String Color
+        public String FeatherColor
         {
-            get { return color; }
-            set { color = value; }
+            get { return feathercolor; }
+            set { feathercolor = value; }
         }
 
-        CreateAnimal(age, weight, name,)   
-    }
+        public Pelican() { }
+        public Pelican(int age, double weight, string name, int wingspan, string feathercolor) :
+            base(age, weight, name, wingspan)
+        {
+            FeatherColor = feathercolor;
+        }
+
 
     }
 }
