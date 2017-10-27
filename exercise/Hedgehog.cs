@@ -20,5 +20,9 @@ namespace exercise
         {
             Spikes = spikes;
         }
+        public override string Stats()
+        {
+            return base.Stats() + " " + Spikes;
+        }
     }
 }

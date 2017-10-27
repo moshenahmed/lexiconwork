@@ -20,5 +20,10 @@ namespace exercise
         {
             Teeth = teeth;
         }
+        public override string Stats()
+        {
+
+            return base.Stats() +  Teeth;
+        }
     }
 }

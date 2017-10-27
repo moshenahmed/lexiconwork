@@ -20,5 +20,10 @@ namespace exercise
         {
             WingSpan = wingSpan;
         }
+        public override string Stats()
+        {
+
+            return base.Stats() +  WingSpan;
+        }
     }
 }

@@ -20,5 +20,9 @@ namespace exercise
         {
             NeckLength = neckLength;
         }
+        public override string Stats()
+        {
+            return base.Stats() + " " + NeckLength;
+        }
     }
 }

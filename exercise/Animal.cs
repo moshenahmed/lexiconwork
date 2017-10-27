@@ -36,6 +36,12 @@ namespace exercise
             Weight = weight;
             Name = name;
         }
+        public virtual string Stats()
+        {
+            return Age + ", " + Weight + " " + Name;
+    }
+
 
     }
+ 
 }

@@ -20,5 +20,9 @@ namespace exercise
         {
             Hooves = hooves;
         }
+        public override string Stats()
+        {
+            return base.Stats() + " " + Hooves;
+        }
     }
 }

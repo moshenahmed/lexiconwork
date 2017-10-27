@@ -20,5 +20,9 @@ namespace exercise
         {
             Color = color;
         }
+        public override string Stats()
+        {
+            return base.Stats() + " " + Color;
+        }
     }
 }
